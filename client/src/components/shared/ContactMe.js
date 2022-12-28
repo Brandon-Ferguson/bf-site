@@ -1,6 +1,6 @@
 import { LogoImg } from "../styles/MainNavStyles";
 
-const Projects = () => ( 
+const ContactMe = () => ( 
   <> 
   <br/>
   <br/>
@@ -14,4 +14,4 @@ const Projects = () => (
 )
 
 
-export default Projects;
+export default ContactMe;

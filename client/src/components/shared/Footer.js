@@ -7,13 +7,12 @@ const Footer = () => (
   <>
     <br />
     <br />
-    <Navbar bg="light" expand="lg">
+    <Navbar fixed="bottom" bg="transparent" expand="lg">
       <Container>
-        <Navbar.Collapse id="basic-navbar-nav" className="justify-content-center">
+        <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
           <Nav className="">
             <Row>
-              <Col><p>© 2022 HandyMan</p></Col>
-              <Col><p>Privacy-Terms</p></Col>
+              <Col><p>Developed & Designed by Brandon Ferguson</p></Col>
             </Row>
           </Nav>
         </Navbar.Collapse>

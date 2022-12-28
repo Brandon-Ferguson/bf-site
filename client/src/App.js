@@ -3,7 +3,7 @@ import Home from './components/home/Home';
 import Nomatch from './components/shared/Nomatch';
 import Projects from './components/shared/Projects';
 import Contacts from './components/contacts/Contacts';
-import ContactMe from './components/home/ContactMe';
+import ContactMe from './components/shared/ContactMe';
 import MainNavbar from './components/shared/MainNavbar';
 import Footer from './components/shared/Footer';
 

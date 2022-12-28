@@ -40,6 +40,9 @@ const Contacts = () => {
 
   return (
     <>
+    <br/>
+    <br/>
+    <br/>
       <ContactForm addContact={addContact} />
       <br />
       <h1>All Contacts</h1>
