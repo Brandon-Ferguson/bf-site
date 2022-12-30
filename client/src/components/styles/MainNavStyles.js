@@ -13,3 +13,13 @@ export const LogoContainer = styled.div`
   padding-left: 1px;
   padding-right: 1px;
 `
+
+export const LinkStyle = styled.a`
+  a:link { 
+    text-decoration: none; 
+    color: black;
+  }
+  a:visited { text-decoration: none; }
+  a:hover { text-decoration: none; }
+  a:active { text-decoration: none; }
+`

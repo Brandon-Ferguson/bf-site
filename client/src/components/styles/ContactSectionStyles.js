@@ -1,17 +1,17 @@
 import styled from 'styled-components';
 
-export const IntroSectionStyles = styled.section`
+export const ContactSectionStyles = styled.section`
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
-  height: 100vh;
+  min-height: 20vh;
+  height: 20vh;
   padding: 0;
 
-  .leftalign {
+  .center {
     display: flex;
     justify-content: center;
-    align-items: flex-start; 
+    align-items: center; 
     flex-direction: column;
     flex-wrap: wrap;
   }
@@ -28,7 +28,7 @@ export const IntroSectionStyles = styled.section`
   }
   .big-heading {
     margin: 0;
-    font-size: clamp(40px, 8vw, 80px);
+    font-size: clamp(20px, 4vw, 40px);
   }
   p {
     margin: 20px 0 0;

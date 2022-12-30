@@ -5,7 +5,6 @@ import Projects from './components/shared/Projects';
 import Contacts from './components/contacts/Contacts';
 import ContactMe from './components/shared/ContactMe';
 import MainNavbar from './components/shared/MainNavbar';
-import Footer from './components/shared/Footer';
 
 const App = () => (
   <> 
@@ -17,7 +16,6 @@ const App = () => (
       <Route path='/contactme' element={<ContactMe />} />
       <Route path='/*' element={<Nomatch />} />
     </Routes>
-    <Footer/>
   </>
 
 )

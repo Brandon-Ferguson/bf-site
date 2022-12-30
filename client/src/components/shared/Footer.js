@@ -2,6 +2,7 @@ import { Container, Row, Col, Image, Card } from 'react-bootstrap';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import { FooterStyles } from '../styles/FooterStyles';
 
 const Footer = () => (
   <>
@@ -9,7 +10,7 @@ const Footer = () => (
     <br />
     <Navbar fixed="bottom" bg="transparent" expand="lg">
       <Container>
-        <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
+        <Navbar.Collapse id="basic-navbar-nav" className="justify-content-center">
           <Nav className="">
             <Row>
               <Col><p>Developed & Designed by Brandon Ferguson</p></Col>

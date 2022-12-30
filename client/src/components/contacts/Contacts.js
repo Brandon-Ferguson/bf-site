@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import axios from 'axios';
 import ContactForm from './ContactForm';
 import ContactList from './ContactList';
+import Footer from '../shared/Footer';
 
 const Contacts = () => {
   const [contacts, setContacts] = useState([])
@@ -51,6 +52,7 @@ const Contacts = () => {
         updateContact={updateContact}
         deleteContact={deleteContact}
       />
+      <Footer/>
     </>
   )
 }
